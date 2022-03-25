@@ -1,1 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2022-03-19T12:36:47.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.74 Safari/537.36" etag="t7Xm11HrW5VEcp70iJ7x" version="17.1.3" type="github"><diagram id="oPo78k8iADCFWiPRZ-2d" name="Tugas 3 Basis Data">7VhtT9swEP41/TJpU176xkdoy5DoJkSZGPuCjthNvDq5ynFpy6+f3dh5aVpotWUgwSdyz9059j33XHFa/iBefRUwj74hobzlOWTV8octz3Md90T90cg6Q9p9LwNCwYgJKoAJe6I206ALRmhaCZSIXLJ5FQwwSWggKxgIgctq2BR59a1zCGkNmATA6+gtIzLK0L7XK/ALysLIvtntmgPHYIPNSdIICC5LkD9q+QOBKLOneDWgXBfP1iXLO9/jzTcmaCIPSbgbXV/0v7uXP5b+/FcvfpicX/DPbttsTq7tiSlRBTAmChlhiAnwUYGeCVwkhOplHWUVMWPEuQJdBf6mUq4Nm7CQqKBIxtx41Y7F+mfZuNOLfelYc7gyi2fWOrfIqeZUmaPrGJJ1hp0zzk1Edhp9hL1VMlCKCxHQZ0pj+lSCCKl8Jq6Xc6lEQDGmascqT1AOkj1W9wGmG8M8riBMPRjOjuDPbPIR+MK86UogWcxqrKZLFnNINH1BxDgZwxoX+liphGBmrbMIBXvCRIKlSrmFNET6TiViojNN3YuW0ElT5Tc5qsGMbfbibBYVOMv15Ol8mqr4K0uTk0NjSKXdihWQ9hJIo7wFgbMwUc+ByqYib4NHKiRdPd8IdeJMQufE6NYMLmsuiyngdgwWlSeA4zTEtV/juuX5m6T7uSG9qxBXV+STwhOIIfdstYOtGKdTmRMyQI6qesMEN30yVbLagtI5BCwJx5usYXuLak2krjlT4/PUvEDqkZBxCQ95AwiUIEu2osWyfBB1+7VQ59Pw5x/IX68p+to1+i5B0lDJaR9JH5o9UrOuV9VsTvDribazX7QzQ/8u2Ra+dyDc9tsWbrdG4Q3O8F5QCYx/iPZvRet3tkS7g+/uLs16TRHe269ZS3pFsVas92rVqicb7HW88tNc8ZDNCzYZ70D53aOVv6sTTppqBHt5faXbUelCdFf2vXw7CjikKQtuIpY0eUWyUn3xjuTv5vn/3JHsLkt6HmYq+/i/6x/dlfqdygj3+ofO8HZj0nX3D3Gya4g/gAiQ0IMHdaI0jFtYpHQA72Jwu87uhjhycrtuY/z7rzu63/CHrc6BQ7uhD1vKLD56bnylT8f+6A8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-25T16:13:02.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="HNw39u29Oto1jirGfpmg" version="17.1.3" type="github" pages="2">
+  <diagram id="oPo78k8iADCFWiPRZ-2d" name="Tugas 3 Basis Data">
+    <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;" parent="1" source="YERH8N1KUw3pZ7mbSFHl-2" target="YERH8N1KUw3pZ7mbSFHl-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-2" value="Produk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="590" y="90" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-3" value="# id_produk&#xa;* nama_produk" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="YERH8N1KUw3pZ7mbSFHl-2" vertex="1">
+          <mxGeometry y="30" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-4" value="Kategori_produk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="120" y="150" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-5" value="# id_kategori&#xa;* nama_kategori" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="YERH8N1KUw3pZ7mbSFHl-4" vertex="1">
+          <mxGeometry y="30" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-6" value="Toko_retail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="350" y="10" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-7" value="# id_retail&#xa;* kategori_id&#xa;* produk_id&#xa;* nama_produk&#xa;* detail_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="YERH8N1KUw3pZ7mbSFHl-6" vertex="1">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classicThin;endFill=0;" parent="1" source="YERH8N1KUw3pZ7mbSFHl-10" target="YERH8N1KUw3pZ7mbSFHl-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-10" value="Detail_produk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="585" y="280" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-11" value="# id_detail&#xa;* barcode&#xa;* nama_produk&#xa;* netto&#xa;* harga" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="YERH8N1KUw3pZ7mbSFHl-10" vertex="1">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YERH8N1KUw3pZ7mbSFHl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;" parent="1" source="YERH8N1KUw3pZ7mbSFHl-5" target="YERH8N1KUw3pZ7mbSFHl-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Fg1hGmsUx8QQ1TKMo9zs" name="Tugas-04-Basdat">
+    <mxGraphModel dx="912" dy="1594" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-0" />
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-1" parent="1BU1NO5aNp6Bns47JUfh-0" />
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;" edge="1" parent="1BU1NO5aNp6Bns47JUfh-1" source="1BU1NO5aNp6Bns47JUfh-3" target="1BU1NO5aNp6Bns47JUfh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-3" value="Produk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-1">
+          <mxGeometry x="571" y="210" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-4" value="# id_produk&#xa;* nama_produk" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-3">
+          <mxGeometry y="30" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-5" value="Kategori_produk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-1">
+          <mxGeometry x="101" y="270" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-6" value="# id_kategori&#xa;* nama_kategori" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-5">
+          <mxGeometry y="30" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-7" value="Toko_retail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-1">
+          <mxGeometry x="331" y="130" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-8" value="# id_pemasok&#xa;* kategori_id&#xa;* produk_id&#xa;* nama_produk&#xa;* detail_id&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-7">
+          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classicThin;endFill=0;" edge="1" parent="1BU1NO5aNp6Bns47JUfh-1" source="1BU1NO5aNp6Bns47JUfh-10" target="1BU1NO5aNp6Bns47JUfh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-10" value="Detail_produk" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-1">
+          <mxGeometry x="566" y="400" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-11" value="# id_detail&#xa;* barcode&#xa;* nama_produk&#xa;* netto&#xa;* harga" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-10">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;" edge="1" parent="1BU1NO5aNp6Bns47JUfh-1" source="1BU1NO5aNp6Bns47JUfh-6" target="1BU1NO5aNp6Bns47JUfh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-13" value="Pemasok" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-1">
+          <mxGeometry x="334" y="-90" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-14" value="# id_pemasok&#xa;* nama_pemasok&#xa;* alamat_pemasok&#xa;* nomor_telepon&#xa;* NPWP" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-13">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.488;entryY=1.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.513;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1BU1NO5aNp6Bns47JUfh-1" source="1BU1NO5aNp6Bns47JUfh-7" target="1BU1NO5aNp6Bns47JUfh-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="412" y="120" as="sourcePoint" />
+            <mxPoint x="410" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
