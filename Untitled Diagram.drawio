@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-25T16:13:02.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="HNw39u29Oto1jirGfpmg" version="17.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-25T16:29:09.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.82 Safari/537.36" etag="AaP0Qfunf1hWmv01Zx3Q" version="17.1.3" type="github" pages="2">
   <diagram id="oPo78k8iADCFWiPRZ-2d" name="Tugas 3 Basis Data">
     <mxGraphModel dx="868" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
         <mxCell id="1BU1NO5aNp6Bns47JUfh-7" value="Toko_retail" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-1">
           <mxGeometry x="331" y="130" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="1BU1NO5aNp6Bns47JUfh-8" value="# id_pemasok&#xa;* kategori_id&#xa;* produk_id&#xa;* nama_produk&#xa;* detail_id&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-7">
+        <mxCell id="1BU1NO5aNp6Bns47JUfh-8" value="# id_retail&#xa;* kategori_id&#xa;* produk_id&#xa;* nama_produk&#xa;* detail_id&#xa;* pemasok_id&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="1BU1NO5aNp6Bns47JUfh-7">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="1BU1NO5aNp6Bns47JUfh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classicThin;endFill=0;" edge="1" parent="1BU1NO5aNp6Bns47JUfh-1" source="1BU1NO5aNp6Bns47JUfh-10" target="1BU1NO5aNp6Bns47JUfh-4">
